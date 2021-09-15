@@ -662,6 +662,7 @@ if sys.version_info >= (3, 9):
         force: bool | None = ...,
         encoding: str | None = ...,
         errors: str | None = ...,
+        logger: str | Logger | None = ...,
     ) -> None: ...
 
 elif sys.version_info >= (3, 8):
