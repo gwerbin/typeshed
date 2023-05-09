@@ -329,7 +329,7 @@ class Formatter:
     _fmt: str | None  # undocumented
     datefmt: str | None  # undocumented
     _style: PercentStyle  # undocumented
-    default_time_format: str
+    default_time_format: ClassVar[str]
     if sys.version_info >= (3, 9):
         default_msec_format: str | None
     else:
